@@ -1,0 +1,19 @@
+Class - It is design/blueprint/template of an object
+
+      Class can contains:
+        1)Variables / Properties
+        2)Methods / Action
+        3)Constructor
+
+Object - instance of class, object exist physically in the memory
+
+      Syntax to create object:
+        1)ClassName objName = new ClassName();
+
+Constructor - To initialize class variables
+
+       Rules of the Constructor:
+         1)Constructor name should be same as the class name
+         2)It must not have any return type
+         3)It will get call automatically when we create object of the class
+

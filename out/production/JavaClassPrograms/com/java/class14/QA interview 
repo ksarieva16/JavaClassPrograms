@@ -1,0 +1,20 @@
+1) What is access modifier:
+public
+private
+default
+protected
+
+static or non-static, instance method
+return data type -> must have return statement or void -> no return data type
+
+name of the method and parenthesis (скобка)
+parameters -> they act like a variable this info that i need from the user
+{} - > body
+awesome
+
+2)What is difference between static and non-static method
+static method belongs to the class itselfs
+non static methods belongs to an object
+to use non-static methods we need to create an object first
+
+What is switch statements?

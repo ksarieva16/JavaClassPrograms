@@ -1,0 +1,147 @@
+Identifier - logical user defined name given to class, variable or methods
+Rules of identifiers
+    1) Allowed characters 0-9, a-z, $, _
+    2) Cannot start with digit
+    3) Case Sensitive
+    4) We cannot use reserved java keyword as an identifier
+Naming Convention
+    1) Variable, Method Name - camelCasing, example - numOfItems
+    2) ClassName         - First word first letter always capital, example - FirstClass
+    3) package name      - lowercase
+    4) Constant      - All Capital
+Data Type
+    byte    - 1 byte
+    short   - 2 bytes
+    int     - 4 bytes
+    long    - 8 bytes
+    float   - 4 bytes
+    double  - 8 bytes
+    char    - 2 bytes
+    String  - Depends on the value
+    boolean - 1 bit
+Type Casting
+    1) Implicit - Storing smaller data type value into bigger space, storing int --> double
+    2) Explicit - Storing bigger data type value into smalle space, storing double --> int
+Operators
+    1) Assignment           :    =
+    2) Arithmetic           :    +, -, *, /, %
+    3) Relational           :    <, >, <=, >=, ==, !=
+    4) Logical          :    ||, &&, !
+    5) Increment / Decrement    :    ++ & --
+Operator Priority & Associativity
+    Priority    - It will decide which operator will get evoluated first
+    Associativity   - If we have more than one operator with same priority, we need to evolute
+              from left to right or right to left based on associativity rule
+Conditional Statements
+    1) Simple if
+        if(condition){
+            // statements
+        }
+    2) If Else
+        if(condition){
+            // statements
+        }else{
+            // statements
+        }
+    3) Ladder If Else
+        if(condition1){
+                // statements
+        }else if(condition2){
+                // statements
+        }else if(condition3){
+                // statements
+        }else{
+                // statements
+        }
+    4) Nested If Else
+        if(condition1){
+            if(condition2){
+                // statements
+            }else{
+                // statements
+            }
+        }else{
+            // statements
+        }
+    5) Switch
+        switch(expression){
+            case value1:
+            break;
+            case value2:
+            break;
+            case value3:
+            break;
+            default:
+        }
+
+Looping Statements
+        1) while loop
+            while(condition){
+            }
+        2) for loop
+            for(initialization; condition; increment/decrement){
+            }
+        3) for each loop - iterate over a collection of data
+            for(data type variableName  : variable that hold multiple values){
+            }
+        4) do while
+            do{
+                // statements
+            }while(condition);
+User Defined Method - Set of reusable code to perform special task
+    Components of the Method
+    1) Method Name          - Mandatory
+    2) Method Parameters        - Optional
+    3) Method Return Type       - Mandatory
+    4) Mothod Body          - Optional
+    Return_Type Method_Name(Parameters){
+        // Method Body
+    }
+String Methods
+    1) equals()
+    2) equalsIgnoreCase()
+    3) contains()
+    4) toUpperCase(), toLowerCase()
+    5) indexOf()
+    6) charAt()
+    7) length()
+    8) isEmpty()
+    9) trim()
+    10) subString()
+    11) split()
+    12) replace()
+    13) format()
+Arrays  - to store collection of similar type of data
+1D Array
+    1) Declare array & initialize with values
+
+            int data[] = {34,45,56,67,34};
+    2) Declare array without values
+
+            int data[] = new int[5];
+    3) Find length of the array
+
+        System.out.println(data.length);
+    4) Accesing index that are not exist in array will throw ArrayIndexOutOfBoundException
+        System.out.println(data[99]);
+    5) Print all values from array using index based for loop
+        for(int i=0; i < data.length; i++){
+            System.out.println(data[i]);
+        }
+    6) Print all values from array using for each loop
+        for(int item : data){
+            System.out.println(item);
+        }
+
+2D Array
+    1) Declare array & initialize with values
+
+            int data[][] = { {34,45,56},{67,34,34}};
+    2) Declare array without values
+
+            int data[] = new int[2][3];
+    3) Find number of rows
+
+        System.out.println(data.length);
+    4) Find number of columns
+        System.out.println(data[i].length);
